@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1cb94c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.artist
+{
+  margin: auto;
+}
+
+.artist img
+{
+  width: 360px;
+}
+
+
+.artist p
+{
+  word-wrap: break-word;
+  color: black;
+  font-family: emoji;
+}
+
+form
+{
+  margin-bottom: 20px;
+}
+
+h1
+{
+  color: black;
+  font-family: emoji;
+  font-size: 80px;
+}
+
+button
+{
+  font-family: emoji;
+  font: message-box;
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+  background-color: #1cb94c;
+  border: 0px;
+}
+
+input
+{
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: #65ff94;
+  color: black;
+  border-radius: 50px;
+  border: 0px;
 }
